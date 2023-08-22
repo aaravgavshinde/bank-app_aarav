@@ -1,0 +1,81 @@
+*{
+    background-color: #f2f5f7;
+}
+
+#outerbox{
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 70px 60px 70px 60px;
+    margin: auto;
+    margin-top: 50px;
+    display: inline-block;
+    box-shadow: 0.5px 0.5px 10px black;
+}
+
+#evenouterbox{
+    text-align: center;
+    justify-content: center;
+}
+
+.heading{
+    text-align: center;
+    color: rgb(36, 36, 36);
+    margin-top: 35px;
+    color: #27374D;
+}
+
+.heading2{
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.miniheading{
+    text-align: center;
+    color: #3c454b;
+    font-size: 25px;
+    margin-top: 10px;
+}
+
+.myamount{
+    text-align: center;
+    font-size: 30px;
+    display: block;
+    position: relative;
+}
+
+.rupee1{
+    font-size: 30px;
+    text-align: center;
+}
+
+.inputbox{
+    padding: 9px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.button1{
+    padding: 10px;
+    border: 0px transparent;
+    border-radius: 8px;
+    background-color: #8ea7b6;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.button1:hover{
+    box-shadow: 0.4px 0.4px 10px #b3c0c9;
+}
+
+.inputdiv{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.error{
+    text-align: center;
+    font-size: 30px;
+    color: red;
+    margin-top: 30px;
+}
+

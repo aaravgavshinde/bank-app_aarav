@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bank Application</title>
+    <link rel="stylesheet" href="mycss.css">
+
+</head>
+<body>
+    <div id="evenouterbox">
+    <span id="outerbox">
+    <h1 class="heading heading2">Bank Application</h1>
+
+    <div class="miniheading">Deposite your amount:</div>
+    <div class="inputdiv">
+    <input class="inputbox" type="text" id="depositeAmt" placeholder="Enter your amount (in rupees)" size="25">
+    <button class="button1" onclick="deposite()">Deposite</button>
+    </div>
+
+    <div class="miniheading">Withdraw your amount:</div>
+    <div class="inputdiv">
+    <input class="inputbox" type="text" id="withdrawAmt" placeholder="Enter your amount (in rupees)" size="25">
+    <button class="button1" onclick="withdraw()">Withdraw</button>
+    </div>
+
+    <div id="output">
+        <h2 class="heading">Your Bank Account Details: (in rupees - ₹)</h2>
+        <div id="outputAmt" class="rupee1">0.00</div>
+    </div>
+</span>
+</div>
+    <script src="myjs.js"></script>
+</body>
+</html>
